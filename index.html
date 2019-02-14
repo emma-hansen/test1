@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <title>Insekt bestemmelsesnøgle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="minstil.css">
+</head>
+
+<body class="bg">
+    <div class="flex__container">
+        <form class="formular">
+            <fieldset>
+                <legend>Insekt bestemmelsesnøgle</legend>
+                <div class="formelementer">
+                    <label for="ben" class="etiket">Antal ben:</label>
+                    <input type="number" class="indtastningsfelt" id="ben" required>
+                </div>
+                <div class="formelementer">
+                    <label for="vinger" class="etiket">Har dyret vinger?</label>
+                    <select class="indtastningsfelt" id="vinger">
+                        <option value="nej">Nej</option>
+                        <option value="ja">Ja</option>
+                    </select>
+                </div>
+                <div class="formelementer vingetype__element" id="vingetype">
+                    <label for="vingetypefelt" class="etiket">Vingetype?</label>
+                    <select class="indtastningsfelt" id="vingetypefelt">
+                        <option value="glasklare">Glasklare</option>
+                        <option value="farvede">Farvede</option>
+                    </select>
+                </div>
+                <div class="formelementer">
+                    <label for="resultat" class="etiket">Insektet er en:</label>
+                    <input id="resultat" class="indtastningsfelt" readonly>
+                </div>
+                <div class="formelementer">
+                    <button type="button" id="identificer">Identificér insekt</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="mitjs.js"></script>
+</body>
+
+</html>

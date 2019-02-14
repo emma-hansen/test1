@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    /* Photo by 𝚂𝚒𝚘𝚛𝚊 𝙿𝚑𝚘𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢 on Unsplash */
+    background-image: url("baggrundsfoto.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.flex__container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formelementer {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.formelementer button {
+    float: right;
+}
+
+.formular {
+    align-self: center;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.etiket {
+    font-family: Arial, sans-serif;
+    display: block;
+}
+
+.indtastningsfelt {
+    width: 100%;
+    text-align: right;
+}
+
+.vingetype__element {
+    display: none;
+}
